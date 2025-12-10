@@ -1,0 +1,110 @@
+{
+    "model_name": "EfficientNetB0",
+    "test_accuracy": 0.25555557012557983,
+    "test_precision": 0.0,
+    "test_recall": 0.0,
+    "test_loss": 1.7884225845336914,
+    "training_time": 827.5032498836517,
+    "total_parameters": 4416297,
+    "classification_report": {
+        "crazing": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1-score": 0.0,
+            "support": 45.0
+        },
+        "inclusion": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1-score": 0.0,
+            "support": 45.0
+        },
+        "patches": {
+            "precision": 0.3655913978494624,
+            "recall": 0.7555555555555555,
+            "f1-score": 0.4927536231884058,
+            "support": 45.0
+        },
+        "pitted_surface": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1-score": 0.0,
+            "support": 45.0
+        },
+        "rolled-in_scale": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1-score": 0.0,
+            "support": 45.0
+        },
+        "scratches": {
+            "precision": 0.1977401129943503,
+            "recall": 0.7777777777777778,
+            "f1-score": 0.3153153153153153,
+            "support": 45.0
+        },
+        "accuracy": 0.25555555555555554,
+        "macro avg": {
+            "precision": 0.09388858514063543,
+            "recall": 0.25555555555555554,
+            "f1-score": 0.13467815641728687,
+            "support": 270.0
+        },
+        "weighted avg": {
+            "precision": 0.09388858514063546,
+            "recall": 0.25555555555555554,
+            "f1-score": 0.13467815641728687,
+            "support": 270.0
+        }
+    },
+    "confusion_matrix": [
+        [
+            0,
+            0,
+            45,
+            0,
+            0,
+            0
+        ],
+        [
+            0,
+            0,
+            0,
+            0,
+            0,
+            45
+        ],
+        [
+            0,
+            0,
+            34,
+            0,
+            0,
+            11
+        ],
+        [
+            0,
+            0,
+            4,
+            0,
+            0,
+            41
+        ],
+        [
+            0,
+            0,
+            0,
+            0,
+            0,
+            45
+        ],
+        [
+            0,
+            0,
+            10,
+            0,
+            0,
+            35
+        ]
+    ]
+}

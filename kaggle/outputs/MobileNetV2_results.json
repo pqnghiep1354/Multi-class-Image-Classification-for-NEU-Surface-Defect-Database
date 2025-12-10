@@ -1,0 +1,110 @@
+{
+    "model_name": "MobileNetV2",
+    "test_accuracy": 0.9962962865829468,
+    "test_precision": 0.9962962865829468,
+    "test_recall": 0.9962962865829468,
+    "test_loss": 0.02095002681016922,
+    "training_time": 781.7314281463623,
+    "total_parameters": 2624710,
+    "classification_report": {
+        "crazing": {
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1-score": 1.0,
+            "support": 45.0
+        },
+        "inclusion": {
+            "precision": 0.9782608695652174,
+            "recall": 1.0,
+            "f1-score": 0.989010989010989,
+            "support": 45.0
+        },
+        "patches": {
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1-score": 1.0,
+            "support": 45.0
+        },
+        "pitted_surface": {
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1-score": 1.0,
+            "support": 45.0
+        },
+        "rolled-in_scale": {
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1-score": 1.0,
+            "support": 45.0
+        },
+        "scratches": {
+            "precision": 1.0,
+            "recall": 0.9777777777777777,
+            "f1-score": 0.9887640449438202,
+            "support": 45.0
+        },
+        "accuracy": 0.9962962962962963,
+        "macro avg": {
+            "precision": 0.9963768115942028,
+            "recall": 0.9962962962962963,
+            "f1-score": 0.9962958389924682,
+            "support": 270.0
+        },
+        "weighted avg": {
+            "precision": 0.9963768115942028,
+            "recall": 0.9962962962962963,
+            "f1-score": 0.9962958389924682,
+            "support": 270.0
+        }
+    },
+    "confusion_matrix": [
+        [
+            45,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        [
+            0,
+            45,
+            0,
+            0,
+            0,
+            0
+        ],
+        [
+            0,
+            0,
+            45,
+            0,
+            0,
+            0
+        ],
+        [
+            0,
+            0,
+            0,
+            45,
+            0,
+            0
+        ],
+        [
+            0,
+            0,
+            0,
+            0,
+            45,
+            0
+        ],
+        [
+            0,
+            1,
+            0,
+            0,
+            0,
+            44
+        ]
+    ]
+}
